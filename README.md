@@ -33,6 +33,8 @@ Prompts to help your content get cited and referenced by AI search engines.
 | 05 | [Entity Strengthener](prompts/geo/05-entity-strengthener.md) | Identifies and fixes weak entities in your content |
 | 06 | [Structured Data Brief](prompts/geo/06-structured-data-brief.md) | Recommends schema markup with JSON-LD examples |
 | 07 | [Competitor Gap for AI](prompts/geo/07-competitor-gap-for-ai.md) | Finds what AIs say about competitors that you're missing |
+| 11 | [GEO Triage](prompts/geo/11-geo-triage.md) | Ranks GEO actions by impact — start here if you're new to GEO |
+| 12 | [GEO Content Brief](prompts/geo/12-geo-content-brief.md) | Full content brief optimized for AI citation |
 
 ### Marketing + AI (3 prompts)
 
@@ -43,6 +45,9 @@ Prompts for high-frequency marketing tasks, built to work with AI natively.
 | 08 | [Campaign Brief Generator](prompts/marketing-ai/08-campaign-brief-generator.md) | Full campaign brief from minimal input |
 | 09 | [Brand Voice Checker](prompts/marketing-ai/09-brand-voice-checker.md) | Reviews copy alignment against brand voice guidelines |
 | 10 | [Content Repurposer](prompts/marketing-ai/10-content-repurposer.md) | Adapts long-form content for 3 channels natively |
+| 13 | [Email Generator](prompts/marketing-ai/13-email-generator.md) | Subject line + body from a brief, ready to send |
+| 14 | [Ad Copy Generator](prompts/marketing-ai/14-ad-copy-generator.md) | Google Ads and Meta Ads copy with character-count compliance |
+| 15 | [Social Post Generator](prompts/marketing-ai/15-social-post-generator.md) | Platform-native posts for LinkedIn, Instagram, and X |
 
 ---
 

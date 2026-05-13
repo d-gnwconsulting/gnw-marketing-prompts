@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.0 — 2026-05-13
+
+Added 5 prompts based on gap analysis for first-time visitors from LinkedIn.
+
+- GEO: GEO Triage (entry point for new GEO users), GEO Content Brief (audit → creation bridge)
+- Marketing AI: Email Generator, Ad Copy Generator, Social Post Generator
+- Total library: 15 prompts
+
 ## v1.0.0 — 2026-05-13
 
 Initial release with 10 prompts across GEO and Marketing AI categories.
