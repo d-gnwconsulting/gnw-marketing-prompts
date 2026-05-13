@@ -61,6 +61,14 @@ Prompts for high-frequency marketing tasks, built to work with AI natively.
 
 ---
 
+## Before you start — read this
+
+**[How to Get Better Results from Claude: A Marketing Team's Guide](CLAUDE-TIPS-FOR-MARKETING.md)**
+
+Anthropic's official prompt engineering best practices, translated for marketing use. Read this once and every prompt in this library will work better.
+
+---
+
 ## How Do I Use These Prompts with Claude?
 
 1. Open any prompt file in this repo
