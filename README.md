@@ -71,7 +71,7 @@ This library gives marketing teams a practical, immediate way to start.
 
 ## Who Built This Library? About Deris Herrera
 
-**Deris Herrera** is a marketing strategist and AI consultant based in Mexico, specializing in GEO, content strategy, and AI-powered marketing systems. She leads strategy and client work at GNW Consulting, where she helps brands adapt their marketing to the generative AI era.
+**Deris Herrera** is a Solution Advisor Specialist at GNW Consulting, specializing in GEO, content strategy, and AI-powered marketing systems. She works with brands to help them adapt their marketing to the generative AI era.
 
 Deris built this library to bridge the gap between AI tools and practical marketing execution — giving teams prompts that are tested, documented, and ready to use, not just theoretical frameworks.
 
