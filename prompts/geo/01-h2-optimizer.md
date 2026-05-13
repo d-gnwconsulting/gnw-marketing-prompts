@@ -37,11 +37,17 @@ Give me 3 rewritten versions of this H2, ordered from most to least conversation
 ## Example
 
 **Input:**
-- Original H2: `Our Services`
-- Page topic: Digital marketing agency services page
-- Target audience: CMOs and marketing directors at mid-size companies
+- Original H2: `What We Do`
+- Page topic: Full-service digital marketing agency services page
+- Target audience: Marketing directors and CMOs at mid-size B2B companies
 
 **Output:**
-1. `What Digital Marketing Services Does a B2B Agency Offer?` — matches the exact query format users type into AI search
-2. `Digital Marketing Services for Mid-Size B2B Companies` — contains specific entity descriptors that help AI classify the content
-3. `How GNW Consulting's Digital Marketing Services Work` — brand + action structure signals authority and specificity
+
+1. `What Does a Full-Service Digital Marketing Agency Do for B2B Companies?`
+   Why it works: mirrors the exact phrasing a user types into an AI search engine — question format, entity-specific, no filler.
+
+2. `Digital Marketing Services for B2B Companies: Strategy, Content, and Paid Media`
+   Why it works: contains specific service categories that help AI classify and cite the page for relevant queries.
+
+3. `How a Full-Service Digital Marketing Agency Drives B2B Revenue`
+   Why it works: action-outcome structure gives AI a clear answer frame and ties the heading to a business result.

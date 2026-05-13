@@ -35,10 +35,27 @@ Produce a table with:
 Then rewrite the 2-3 most critical instances directly in the text so I can see the improvement in context.
 ```
 
-## Example output
+## Example
+
+**Input page content:**
+> Our team has been helping companies improve their online presence for over eight years. We use a combination of tools and proven techniques to deliver results. Our founder started the company after seeing how many businesses were leaving money on the table. Today, we work with clients across multiple industries.
+
+**Brand context:** [a digital marketing agency specializing in SEO and paid media for e-commerce brands]
+
+**Output:**
 
 | Weak entity | Current usage | Suggested improvement | Reason |
 |-------------|--------------|----------------------|--------|
-| Brand | "our team" | "GNW Consulting's strategy team" | AI can't associate anonymous "team" with the brand |
-| Product | "the tool" | "GNW's GEO Intelligence dashboard" | Needs a proper name and category |
-| Person | "our founder" | "Deris H., founder of GNW Consulting" | People entities need name + role |
+| Brand | "our team" | "[Agency name]'s SEO and paid media team" | AI cannot associate an anonymous "team" with any specific company or service |
+| Founder | "our founder" | "[Founder name], founder of [Agency name]" | People entities need a proper name and role to be recognized and cited |
+| Service | "tools and proven techniques" | "SEO audits, paid media management, and conversion optimization" | Vague methodology names no service — AI needs specific category terms |
+| Client type | "companies," "clients across multiple industries" | "e-commerce brands" | Broad descriptors prevent AI from matching this content to specific audience queries |
+| Outcome | "improve their online presence," "deliver results" | "increase organic traffic and paid media ROI" | Generic outcomes are uncitable — specific metrics and results are quotable |
+
+**2 most critical instances rewritten in context:**
+
+Original: *"Our team has been helping companies improve their online presence for over eight years."*
+Improved: *"[Agency name] has helped e-commerce brands increase organic traffic and paid media ROI for over eight years."*
+
+Original: *"We use a combination of tools and proven techniques to deliver results."*
+Improved: *"[Agency name] uses SEO audits, paid search management, and conversion rate optimization to grow e-commerce revenue."*

@@ -33,25 +33,38 @@ Page content to audit:
 [paste your page content here]
 ```
 
-## Example output structure
+## Example
 
-```
+**Input page content:**
+> We are a passionate team of marketers dedicated to helping businesses grow. With years of experience in the industry, we offer a range of solutions tailored to your needs. Our approach is data-driven and results-oriented. Contact us today to learn more about what we can do for your brand.
+
+**Output:**
+
 **GEO Audit Results**
 
-1. Answer-first structure: 12/20
-   - The main value proposition appears in paragraph 3. Move it to the first sentence.
-   - Add a TL;DR or summary at the top of long sections.
+1. **Answer-first structure: 6/20**
+   - The page never states what the company does or who it serves. The first sentence should answer: what do you do, for whom, and with what result.
+   - Remove the "Contact us" CTA from the intro — it interrupts the content before AI can extract any value.
 
-2. Entity clarity: 8/20
-   - The brand name appears only once. Repeat it in context throughout.
-   - Add descriptive context: instead of "our platform", say "GNW's marketing analytics platform".
+2. **Entity clarity: 4/20**
+   - "We," "our team," and "businesses" are unresolvable to any AI system. Replace with the actual company name and specific client types.
+   - "A range of solutions" names nothing. List the actual service categories.
 
-[...]
+3. **Query alignment: 5/20**
+   - "Passionate team" and "tailored solutions" are marketing filler — no user queries these phrases to an AI.
+   - Rewrite using the language your clients actually use when searching: "paid media," "content strategy," "lead generation."
 
-**Total score: 61/100**
+4. **Citability: 3/20**
+   - There is no single quotable statement. AI needs a clear, standalone sentence it can extract as a direct answer.
+   - Add at least one definition or factual claim per section.
+
+5. **Structured formatting: 8/20**
+   - Single block of text. AI cannot distinguish topics or extract specific answers.
+   - Break into headed sections, each answering one question.
+
+**Total score: 26/100**
 
 **Top 3 priority changes:**
-1. Rewrite the intro paragraph to answer the user's main question in the first line
-2. Add 3-4 FAQ items at the bottom of the page
-3. Replace all H2s with question-format headings
-```
+1. Rewrite the first sentence to state: who you are, what you do, and who you serve — in that order, with no warm-up
+2. Replace all pronouns and vague nouns with the company name and specific service names
+3. Add H2 headers to every section, each phrased as a question a user would ask an AI

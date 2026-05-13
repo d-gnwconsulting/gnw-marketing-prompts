@@ -36,9 +36,11 @@ Rewrite the content maintaining the same information and approximate length, but
 ## Example
 
 **Input:**
-> In today's competitive digital landscape, many businesses are looking for ways to stand out. Marketing has evolved significantly over the past decade with the rise of digital channels. At GNW Consulting, we believe that a data-driven approach is the key to sustainable growth. That's why we offer integrated marketing strategy services that combine analytics, content, and paid media.
+> Marketing has changed dramatically over the past few years. With the rise of AI-powered search engines, brands that used to rely on Google rankings are now finding that their visibility is dropping. At the same time, new opportunities are emerging for brands that understand how these systems work. That's why content strategy has never been more important — and why more companies are investing in it now.
+
+**Question this content answers:** Why does content strategy matter in the age of AI search?
 
 **Output:**
-> GNW Consulting offers integrated marketing strategy services that combine analytics, content, and paid media to drive sustainable business growth. As digital channels have multiplied, the brands that win are those using data to make decisions — not intuition. Our approach is built on that foundation.
+> Content strategy is now the primary lever for brand visibility as AI-powered search engines displace traditional Google rankings. Brands built on SEO alone are losing ground — while those who optimize for how AI systems extract and cite content are gaining it. The shift is already underway, and the window to act early is closing.
 
-**Biggest structural change:** Moved the service description and differentiator from sentences 4-5 to sentence 1.
+**Biggest structural change:** Moved the actionable conclusion ("content strategy matters") from sentence 4 to sentence 1, and replaced vague framing ("changed dramatically") with a specific causal mechanism (AI search displacing Google rankings).
