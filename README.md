@@ -75,7 +75,7 @@ This library gives marketing teams a practical, immediate way to start.
 
 Deris built this library to bridge the gap between AI tools and practical marketing execution — giving teams prompts that are tested, documented, and ready to use, not just theoretical frameworks.
 
-Connect with Deris on [GitHub](https://github.com/dh_gnwconsulting).
+Connect with Deris on [LinkedIn](https://linkedin.com/deris-herrera).
 
 ---
 
