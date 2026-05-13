@@ -6,6 +6,16 @@ All prompts are designed for **Claude Sonnet 4.6**, structured for consistent ou
 
 ---
 
+## New here? Start with these three
+
+| If you want to... | Use this prompt |
+|-------------------|----------------|
+| Know where to focus your GEO efforts | [GEO Triage](prompts/geo/11-geo-triage.md) — paste your page, get a ranked action list |
+| Write an email, ad, or social post today | [Email Generator](prompts/marketing-ai/13-email-generator.md), [Ad Copy](prompts/marketing-ai/14-ad-copy-generator.md), or [Social Post](prompts/marketing-ai/15-social-post-generator.md) |
+| Understand what GEO changes to make on a specific page | [GEO Page Audit](prompts/geo/02-geo-page-audit.md) — scores your page and prioritizes fixes |
+
+---
+
 ## What Is the GNW Marketing Prompt Library?
 
 The GNW Marketing Prompt Library is a structured collection of Claude prompts for marketing professionals. It covers two core areas: **GEO (Generative Engine Optimization)** — making content visible in AI-powered search engines like Perplexity, ChatGPT, and Gemini — and **AI-powered marketing workflows** like campaign briefs, brand voice review, and content repurposing.
