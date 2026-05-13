@@ -1,3 +1,10 @@
+---
+version: 1.0
+tested_model: claude-sonnet-4-6
+tested_date: 2026-05-13
+category: geo
+---
+
 # Competitor Gap for AI
 
 **Category:** GEO
