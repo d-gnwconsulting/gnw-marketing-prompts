@@ -1,68 +1,106 @@
 # GNW Marketing Prompts for Claude
 
-A structured prompt library for marketing teams and agencies. Built and maintained by [GNW Consulting](https://gnwconsulting.com).
+A free, open-source prompt library for marketing teams and agencies. Built and maintained by **Deris Herrera** at [GNW Consulting](https://gnwconsulting.com).
 
-All prompts are tested with **Claude Sonnet 4.6** and optimized for marketing teams that want consistent, high-quality AI outputs without writing prompts from scratch.
+All prompts are designed for **Claude Sonnet 4.6**, structured for consistent outputs, and optimized for teams that need reliable AI results without writing prompts from scratch every time.
 
 ---
 
-## What's inside
+## What Is the GNW Marketing Prompt Library?
 
-### GEO (Generative Engine Optimization)
-Prompts to help your content get cited and referenced by AI-powered search engines like Perplexity, ChatGPT, and Gemini.
+The GNW Marketing Prompt Library is a structured collection of Claude prompts for marketing professionals. It covers two core areas: **GEO (Generative Engine Optimization)** — making content visible in AI-powered search engines like Perplexity, ChatGPT, and Gemini — and **AI-powered marketing workflows** like campaign briefs, brand voice review, and content repurposing.
+
+Each prompt includes:
+- What it does and when to use it
+- Exactly what input it needs
+- The full prompt, ready to copy
+- A real example with input and output
+
+---
+
+## What Prompts Are Included?
+
+### GEO — Generative Engine Optimization (7 prompts)
+
+Prompts to help your content get cited and referenced by AI search engines.
 
 | # | Prompt | What it does |
 |---|--------|--------------|
-| 01 | [H2 Optimizer](prompts/geo/01-h2-optimizer.md) | Rewrites H2 headings for AI citation |
-| 02 | [GEO Page Audit](prompts/geo/02-geo-page-audit.md) | Audits a page and scores its GEO readiness |
-| 03 | [Answer-First Rewriter](prompts/geo/03-answer-first-rewriter.md) | Restructures paragraphs so the answer comes first |
-| 04 | [FAQ Generator for AI](prompts/geo/04-faq-generator-for-ai.md) | Generates questions + citable answers for your topic |
-| 05 | [Entity Strengthener](prompts/geo/05-entity-strengthener.md) | Identifies and strengthens weak entities in your content |
-| 06 | [Structured Data Brief](prompts/geo/06-structured-data-brief.md) | Recommends schema markup based on your content |
+| 01 | [H2 Optimizer](prompts/geo/01-h2-optimizer.md) | Rewrites H2 headings for AI citation probability |
+| 02 | [GEO Page Audit](prompts/geo/02-geo-page-audit.md) | Scores a page's GEO readiness and prioritizes fixes |
+| 03 | [Answer-First Rewriter](prompts/geo/03-answer-first-rewriter.md) | Restructures paragraphs so the answer leads |
+| 04 | [FAQ Generator for AI](prompts/geo/04-faq-generator-for-ai.md) | Generates citable Q&A pairs for your topic |
+| 05 | [Entity Strengthener](prompts/geo/05-entity-strengthener.md) | Identifies and fixes weak entities in your content |
+| 06 | [Structured Data Brief](prompts/geo/06-structured-data-brief.md) | Recommends schema markup with JSON-LD examples |
 | 07 | [Competitor Gap for AI](prompts/geo/07-competitor-gap-for-ai.md) | Finds what AIs say about competitors that you're missing |
 
-### Marketing + AI
-Prompts for everyday marketing tasks, built to work with AI natively.
+### Marketing + AI (3 prompts)
+
+Prompts for high-frequency marketing tasks, built to work with AI natively.
 
 | # | Prompt | What it does |
 |---|--------|--------------|
-| 08 | [Campaign Brief Generator](prompts/marketing-ai/08-campaign-brief-generator.md) | Generates a full campaign brief from minimal input |
-| 09 | [Brand Voice Checker](prompts/marketing-ai/09-brand-voice-checker.md) | Checks if copy aligns with your brand voice |
-| 10 | [Content Repurposer](prompts/marketing-ai/10-content-repurposer.md) | Turns long-form content into 3 channel-specific versions |
+| 08 | [Campaign Brief Generator](prompts/marketing-ai/08-campaign-brief-generator.md) | Full campaign brief from minimal input |
+| 09 | [Brand Voice Checker](prompts/marketing-ai/09-brand-voice-checker.md) | Reviews copy alignment against brand voice guidelines |
+| 10 | [Content Repurposer](prompts/marketing-ai/10-content-repurposer.md) | Adapts long-form content for 3 channels natively |
 
 ---
 
-## How to use
+## How Do I Use These Prompts with Claude?
 
-1. Open any prompt file
-2. Copy the prompt text
+1. Open any prompt file in this repo
+2. Copy the prompt text under the **Prompt** section
 3. Replace the `[bracketed placeholders]` with your content
-4. Paste into Claude and run
+4. Paste into [Claude.ai](https://claude.ai) and run
 
-No setup required. Works directly in [Claude.ai](https://claude.ai) or via the Claude API.
+No setup, no API key, no installation required. Works directly in the Claude web interface or via the Claude API.
 
----
-
-## Model
-
-All prompts are optimized for **Claude Sonnet 4.6**. They work with other Claude models but outputs may vary.
+**Recommended model:** Claude Sonnet 4.6. Prompts also work with Claude Opus 4.7 for more complex tasks.
 
 ---
 
-## About GNW Consulting
+## What Is GEO and Why Do These Prompts Focus on It?
 
-GNW Consulting is a marketing strategy and AI consultancy. We help brands navigate AI-driven search and build content strategies for the generative era.
+GEO (Generative Engine Optimization) is the practice of optimizing content to be cited by AI-powered search engines. When someone asks Perplexity, ChatGPT, or Gemini a question, those systems pull from sources across the web. GEO is the discipline of making sure your content is what gets cited.
+
+Traditional SEO optimizes for Google's ranking algorithm. GEO optimizes for how large language models extract, interpret, and reference content. The two disciplines overlap but require different strategies — and most marketing teams are not yet applying GEO principles to their content.
+
+This library gives marketing teams a practical, immediate way to start.
+
+---
+
+## Who Built This Library? About Deris Herrera
+
+**Deris Herrera** is a marketing strategist and AI consultant based in Mexico, specializing in GEO, content strategy, and AI-powered marketing systems. She leads strategy and client work at GNW Consulting, where she helps brands adapt their marketing to the generative AI era.
+
+Deris built this library to bridge the gap between AI tools and practical marketing execution — giving teams prompts that are tested, documented, and ready to use, not just theoretical frameworks.
+
+Connect with Deris on [GitHub](https://github.com/dh_gnwconsulting).
+
+---
+
+## What Is GNW Consulting?
+
+**GNW Consulting** is a marketing strategy and AI consultancy that helps brands become visible in AI-powered search. The firm specializes in GEO (Generative Engine Optimization), content strategy for the generative era, and building AI-powered marketing workflows for internal teams and agencies.
+
+GNW Consulting works with marketing teams that need to adapt to a world where AI systems — not just search engines — are the primary discovery layer for information, products, and services.
 
 Website: [gnwconsulting.com](https://gnwconsulting.com)
 
 ---
 
-## Contributing
+## How Can I Contribute to This Library?
 
-Found a prompt that works better? Open a PR with the improved version and an example output. Include the model and date tested.
+Contributions are welcome. If you have a prompt that works well for a marketing use case and has been tested with Claude, open a pull request with:
+
+- The prompt file following the existing format
+- A real input/output example
+- The Claude model and date tested
+
+Open an issue first if you want to propose a new category or major change.
 
 ---
 
 ## License
 
-MIT — use freely, attribution appreciated.
+MIT — free to use, modify, and distribute. Attribution appreciated but not required.
